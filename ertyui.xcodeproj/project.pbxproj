@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB171B91CB3CE29006BB101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171B81CB3CE29006BB101 /* main.m */; };
+		3BB171BC1CB3CE29006BB101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171BB1CB3CE29006BB101 /* AppDelegate.m */; };
+		3BB171BF1CB3CE29006BB101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171BE1CB3CE29006BB101 /* ViewController.m */; };
+		3BB171C21CB3CE29006BB101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB171C01CB3CE29006BB101 /* Main.storyboard */; };
+		3BB171C41CB3CE29006BB101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB171C31CB3CE29006BB101 /* Assets.xcassets */; };
+		3BB171C71CB3CE29006BB101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB171C51CB3CE29006BB101 /* LaunchScreen.storyboard */; };
+		3BB171D21CB3CE29006BB101 /* ertyuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171D11CB3CE29006BB101 /* ertyuiTests.m */; };
+		3BB171DD1CB3CE29006BB101 /* ertyuiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171DC1CB3CE29006BB101 /* ertyuiUITests.m */; };
+		3BB171EC1CB3CE34006BB101 /* JMHoledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB171EB1CB3CE34006BB101 /* JMHoledView.m */; };
+		3BB171EE1CB3D00D006BB101 /* 风雨兼程.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BB171ED1CB3D00D006BB101 /* 风雨兼程.jpg */; };
+		3BFC97721CB5214400B46DD3 /* GuideMyInfoDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC976F1CB5214400B46DD3 /* GuideMyInfoDetail.png */; };
+		3BFC97731CB5214400B46DD3 /* GuideMyInfoDetail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC97701CB5214400B46DD3 /* GuideMyInfoDetail@2x.png */; };
+		3BFC97741CB5214400B46DD3 /* GuideMyInfoDetail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC97711CB5214400B46DD3 /* GuideMyInfoDetail@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB171CE1CB3CE29006BB101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB171AC1CB3CE29006BB101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB171B31CB3CE29006BB101;
+			remoteInfo = ertyui;
+		};
+		3BB171D91CB3CE29006BB101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB171AC1CB3CE29006BB101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB171B31CB3CE29006BB101;
+			remoteInfo = ertyui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB171B41CB3CE29006BB101 /* ertyui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ertyui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB171B81CB3CE29006BB101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB171BA1CB3CE29006BB101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB171BB1CB3CE29006BB101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB171BD1CB3CE29006BB101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BB171BE1CB3CE29006BB101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BB171C11CB3CE29006BB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB171C31CB3CE29006BB101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB171C61CB3CE29006BB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB171C81CB3CE29006BB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB171CD1CB3CE29006BB101 /* ertyuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ertyuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB171D11CB3CE29006BB101 /* ertyuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ertyuiTests.m; sourceTree = "<group>"; };
+		3BB171D31CB3CE29006BB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB171D81CB3CE29006BB101 /* ertyuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ertyuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB171DC1CB3CE29006BB101 /* ertyuiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ertyuiUITests.m; sourceTree = "<group>"; };
+		3BB171DE1CB3CE29006BB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB171EA1CB3CE34006BB101 /* JMHoledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHoledView.h; sourceTree = "<group>"; };
+		3BB171EB1CB3CE34006BB101 /* JMHoledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHoledView.m; sourceTree = "<group>"; };
+		3BB171ED1CB3D00D006BB101 /* 风雨兼程.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风雨兼程.jpg"; sourceTree = "<group>"; };
+		3BFC976F1CB5214400B46DD3 /* GuideMyInfoDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GuideMyInfoDetail.png; sourceTree = "<group>"; };
+		3BFC97701CB5214400B46DD3 /* GuideMyInfoDetail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GuideMyInfoDetail@2x.png"; sourceTree = "<group>"; };
+		3BFC97711CB5214400B46DD3 /* GuideMyInfoDetail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GuideMyInfoDetail@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB171B11CB3CE29006BB101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171CA1CB3CE29006BB101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171D51CB3CE29006BB101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB171AB1CB3CE29006BB101 = {
+			isa = PBXGroup;
+			children = (
+				3BB171B61CB3CE29006BB101 /* ertyui */,
+				3BB171D01CB3CE29006BB101 /* ertyuiTests */,
+				3BB171DB1CB3CE29006BB101 /* ertyuiUITests */,
+				3BB171B51CB3CE29006BB101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB171B51CB3CE29006BB101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB171B41CB3CE29006BB101 /* ertyui.app */,
+				3BB171CD1CB3CE29006BB101 /* ertyuiTests.xctest */,
+				3BB171D81CB3CE29006BB101 /* ertyuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB171B61CB3CE29006BB101 /* ertyui */ = {
+			isa = PBXGroup;
+			children = (
+				3BB171BA1CB3CE29006BB101 /* AppDelegate.h */,
+				3BB171BB1CB3CE29006BB101 /* AppDelegate.m */,
+				3BB171BD1CB3CE29006BB101 /* ViewController.h */,
+				3BB171BE1CB3CE29006BB101 /* ViewController.m */,
+				3BB171ED1CB3D00D006BB101 /* 风雨兼程.jpg */,
+				3BFC976F1CB5214400B46DD3 /* GuideMyInfoDetail.png */,
+				3BFC97701CB5214400B46DD3 /* GuideMyInfoDetail@2x.png */,
+				3BFC97711CB5214400B46DD3 /* GuideMyInfoDetail@3x.png */,
+				3BB171EA1CB3CE34006BB101 /* JMHoledView.h */,
+				3BB171EB1CB3CE34006BB101 /* JMHoledView.m */,
+				3BB171C01CB3CE29006BB101 /* Main.storyboard */,
+				3BB171C31CB3CE29006BB101 /* Assets.xcassets */,
+				3BB171C51CB3CE29006BB101 /* LaunchScreen.storyboard */,
+				3BB171C81CB3CE29006BB101 /* Info.plist */,
+				3BB171B71CB3CE29006BB101 /* Supporting Files */,
+			);
+			path = ertyui;
+			sourceTree = "<group>";
+		};
+		3BB171B71CB3CE29006BB101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB171B81CB3CE29006BB101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB171D01CB3CE29006BB101 /* ertyuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB171D11CB3CE29006BB101 /* ertyuiTests.m */,
+				3BB171D31CB3CE29006BB101 /* Info.plist */,
+			);
+			path = ertyuiTests;
+			sourceTree = "<group>";
+		};
+		3BB171DB1CB3CE29006BB101 /* ertyuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB171DC1CB3CE29006BB101 /* ertyuiUITests.m */,
+				3BB171DE1CB3CE29006BB101 /* Info.plist */,
+			);
+			path = ertyuiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB171B31CB3CE29006BB101 /* ertyui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB171E11CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyui" */;
+			buildPhases = (
+				3BB171B01CB3CE29006BB101 /* Sources */,
+				3BB171B11CB3CE29006BB101 /* Frameworks */,
+				3BB171B21CB3CE29006BB101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ertyui;
+			productName = ertyui;
+			productReference = 3BB171B41CB3CE29006BB101 /* ertyui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB171CC1CB3CE29006BB101 /* ertyuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB171E41CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyuiTests" */;
+			buildPhases = (
+				3BB171C91CB3CE29006BB101 /* Sources */,
+				3BB171CA1CB3CE29006BB101 /* Frameworks */,
+				3BB171CB1CB3CE29006BB101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB171CF1CB3CE29006BB101 /* PBXTargetDependency */,
+			);
+			name = ertyuiTests;
+			productName = ertyuiTests;
+			productReference = 3BB171CD1CB3CE29006BB101 /* ertyuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BB171D71CB3CE29006BB101 /* ertyuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB171E71CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyuiUITests" */;
+			buildPhases = (
+				3BB171D41CB3CE29006BB101 /* Sources */,
+				3BB171D51CB3CE29006BB101 /* Frameworks */,
+				3BB171D61CB3CE29006BB101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB171DA1CB3CE29006BB101 /* PBXTargetDependency */,
+			);
+			name = ertyuiUITests;
+			productName = ertyuiUITests;
+			productReference = 3BB171D81CB3CE29006BB101 /* ertyuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB171AC1CB3CE29006BB101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WiKi;
+				TargetAttributes = {
+					3BB171B31CB3CE29006BB101 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3BB171CC1CB3CE29006BB101 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3BB171B31CB3CE29006BB101;
+					};
+					3BB171D71CB3CE29006BB101 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3BB171B31CB3CE29006BB101;
+					};
+				};
+			};
+			buildConfigurationList = 3BB171AF1CB3CE29006BB101 /* Build configuration list for PBXProject "ertyui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB171AB1CB3CE29006BB101;
+			productRefGroup = 3BB171B51CB3CE29006BB101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB171B31CB3CE29006BB101 /* ertyui */,
+				3BB171CC1CB3CE29006BB101 /* ertyuiTests */,
+				3BB171D71CB3CE29006BB101 /* ertyuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB171B21CB3CE29006BB101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFC97731CB5214400B46DD3 /* GuideMyInfoDetail@2x.png in Resources */,
+				3BB171EE1CB3D00D006BB101 /* 风雨兼程.jpg in Resources */,
+				3BB171C71CB3CE29006BB101 /* LaunchScreen.storyboard in Resources */,
+				3BB171C41CB3CE29006BB101 /* Assets.xcassets in Resources */,
+				3BB171C21CB3CE29006BB101 /* Main.storyboard in Resources */,
+				3BFC97741CB5214400B46DD3 /* GuideMyInfoDetail@3x.png in Resources */,
+				3BFC97721CB5214400B46DD3 /* GuideMyInfoDetail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171CB1CB3CE29006BB101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171D61CB3CE29006BB101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB171B01CB3CE29006BB101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB171BF1CB3CE29006BB101 /* ViewController.m in Sources */,
+				3BB171BC1CB3CE29006BB101 /* AppDelegate.m in Sources */,
+				3BB171EC1CB3CE34006BB101 /* JMHoledView.m in Sources */,
+				3BB171B91CB3CE29006BB101 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171C91CB3CE29006BB101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB171D21CB3CE29006BB101 /* ertyuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB171D41CB3CE29006BB101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB171DD1CB3CE29006BB101 /* ertyuiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB171CF1CB3CE29006BB101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB171B31CB3CE29006BB101 /* ertyui */;
+			targetProxy = 3BB171CE1CB3CE29006BB101 /* PBXContainerItemProxy */;
+		};
+		3BB171DA1CB3CE29006BB101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB171B31CB3CE29006BB101 /* ertyui */;
+			targetProxy = 3BB171D91CB3CE29006BB101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB171C01CB3CE29006BB101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB171C11CB3CE29006BB101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB171C51CB3CE29006BB101 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB171C61CB3CE29006BB101 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB171DF1CB3CE29006BB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB171E01CB3CE29006BB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB171E21CB3CE29006BB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ertyui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BB171E31CB3CE29006BB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ertyui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BB171E51CB3CE29006BB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ertyuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ertyui.app/ertyui";
+			};
+			name = Debug;
+		};
+		3BB171E61CB3CE29006BB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ertyuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ertyui.app/ertyui";
+			};
+			name = Release;
+		};
+		3BB171E81CB3CE29006BB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ertyuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ertyui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3BB171E91CB3CE29006BB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ertyuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwenkang.ertyuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ertyui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB171AF1CB3CE29006BB101 /* Build configuration list for PBXProject "ertyui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB171DF1CB3CE29006BB101 /* Debug */,
+				3BB171E01CB3CE29006BB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB171E11CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB171E21CB3CE29006BB101 /* Debug */,
+				3BB171E31CB3CE29006BB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB171E41CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB171E51CB3CE29006BB101 /* Debug */,
+				3BB171E61CB3CE29006BB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB171E71CB3CE29006BB101 /* Build configuration list for PBXNativeTarget "ertyuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB171E81CB3CE29006BB101 /* Debug */,
+				3BB171E91CB3CE29006BB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB171AC1CB3CE29006BB101 /* Project object */;
+}
